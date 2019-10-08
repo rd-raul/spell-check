@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "fs": "0.0.1-security",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-file-reader": "^1.1.4",
+    "react-scripts": "3.2.0",
+    "simple-spellchecker": "^0.9.9",
+    "spell-checker-js": "^1.2.6",
+    "spellchecker": "^3.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
