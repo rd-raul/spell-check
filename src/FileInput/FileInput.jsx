@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 // import SpellChecker from 'spellchecker';
-import * as spell from 'spell-checker-js';
+// import * as spell from 'spell-checker-js';
 // const spell = require('spell-checker-js');
-spell.load('en');
+// spell.load('en');
 
 class FileInput extends Component {
     constructor(props){
@@ -13,7 +13,7 @@ class FileInput extends Component {
     handleFileRead = (file) => {
         let content = this.fileReader.result;
         // checker.isMisspelled('content');
-        console.log(spell.check('Some text to check, blahblahblah, olololo'));
+        // console.log(spell.check('Some text to check, blahblahblah, olololo'));
     }
 
     handleFileChosen = (file) => {
